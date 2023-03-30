@@ -1,6 +1,19 @@
 .bg_white{
     background-color: white;
 }
+
+.bg_opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg_smoke{
+    background-color: whitesmoke;
+}
+
+.bg_blue{
+    background-color: #1b72e8;
+}
+
 .color_white{
     color: white;
 }
@@ -17,15 +30,17 @@ nav{
     height: 70px;
 }
 
-img{
-    height: auto;
-    max-width: 60px;
+.logo_mobile{
+    max-width: 10%;
+}
+
+.logo{
+    max-width: 15%;
 }
 /* sidebar */
 
 .sidebar_{
     margin-top: 70px;
-    width: 15vw;
     height: calc(100vh - 70px);
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
@@ -44,8 +59,8 @@ img{
 }
 
 /* main */
-.main_container{
+#main_container{
     margin-top: 70px;
-    width: 85vw;
     height: calc(100vh - 70px);
 }
+
