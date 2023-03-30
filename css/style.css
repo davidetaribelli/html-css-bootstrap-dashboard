@@ -1,0 +1,51 @@
+.bg_white{
+    background-color: white;
+}
+.color_white{
+    color: white;
+}
+.color_yellow{
+    color: goldenrod;
+}
+
+#margin_top{
+    margin-top: 70px;
+}
+
+/* header */
+nav{
+    height: 70px;
+}
+
+img{
+    height: auto;
+    max-width: 60px;
+}
+/* sidebar */
+
+.sidebar_{
+    margin-top: 70px;
+    width: 15vw;
+    height: calc(100vh - 70px);
+    background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
+}
+
+.side_up, .side_down{
+    width: 100%;
+}
+
+.sidebar_ ul li{
+    list-style: none;
+}
+
+.sidebar_ ul li i{
+    font-size: 1.5rem;
+}
+
+/* main */
+.main_container{
+    margin-top: 70px;
+    width: 85vw;
+    height: calc(100vh - 70px);
+}
