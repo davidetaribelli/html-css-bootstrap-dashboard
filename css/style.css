@@ -73,6 +73,19 @@ body{
     width: 50% !important;
 }
 
+@media screen and (max-width:768px){
+    .offcanvas{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:992px){
+    .offcanvas{
+        width: 100% !important;
+    }
+}
+
+
 /* animazioni */
 
 .sidebar_ ul li:hover{
