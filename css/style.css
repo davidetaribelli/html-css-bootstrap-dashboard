@@ -25,17 +25,16 @@
     margin-top: 70px;
 }
 
+.pointer_{
+    cursor: pointer;
+}
+
 /* header */
-nav{
+.nav_{
+    max-height: 70px;
+}
+.nav_ .logo_mobile{
     height: 70px;
-}
-
-.logo_mobile{
-    max-width: 10%;
-}
-
-.logo{
-    max-width: 15%;
 }
 /* sidebar */
 
@@ -63,6 +62,16 @@ nav{
     overflow: scroll;
     margin-top: 70px;
     height: calc(100vh - 70px);
+}
+
+/* animazioni */
+
+.sidebar_ ul li:hover{
+    background-color: rgb(115, 114, 107);
+}
+
+.side_down ul li:hover{
+    background-color: rgb(115, 114, 107);
 }
 
 
