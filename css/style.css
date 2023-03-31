@@ -1,3 +1,8 @@
+
+body{
+    height: 100vh;
+}
+
 .bg_white{
     background-color: white;
 }
@@ -29,9 +34,10 @@
     cursor: pointer;
 }
 
+
 /* header */
 .nav_{
-    max-height: 70px;
+    height: 70px;
 }
 .nav_ .logo_mobile{
     height: 70px;
@@ -39,7 +45,7 @@
 /* sidebar */
 
 .sidebar_{
-    margin-top: 70px;
+    
     height: calc(100vh - 70px);
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
@@ -59,8 +65,7 @@
 
 /* main */
 #main_container{
-    overflow: scroll;
-    margin-top: 70px;
+    overflow: auto;
     height: calc(100vh - 70px);
 }
 
